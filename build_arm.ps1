@@ -1,0 +1,1 @@
+az bicep build -f infrastructure\ResourceGroup.bicep
