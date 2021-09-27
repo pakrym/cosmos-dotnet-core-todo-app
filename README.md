@@ -36,6 +36,10 @@ This sample shows you how to use the Microsoft Azure Cosmos DB service to store 
 
 ### Deploy this sample to Azure with command line
 
+1. Before you can run this sample, you must have the following prerequisites:
+    - [.NET Core SDK 3.1 or higher](https://dotnet.microsoft.com/download)
+    - Azure CLI (https://docs.microsoft.com/cli/azure/install-azure-cli).
+1. Clone this repository using your Git command line, or download the zip file.
 1. Sign in with Azure CLI. (https://docs.microsoft.com/cli/azure/authenticate-azure-cli).
     - Azure CLI (https://docs.microsoft.com/cli/azure/install-azure-cli).
 1. Run `.\deploy.ps1 -ResourceGroup <resource_group_name> -Location <resource_group_location>`. This step will provision required Azure Resources and deploy the application code.
